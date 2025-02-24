@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonTable", "PersonTable\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonApi", "PersonApi\PersonApi.csproj", "{AA4CD24C-C317-4EAC-95F7-A72A837F3BCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonModelos.Shared", "PersonModelos.Shared\PersonModelos.Shared.csproj", "{20199ECB-A0C8-4453-A478-FBB90AC746B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person.Dados", "Person.Dados\Person.Dados.csproj", "{A5E933B6-2CB9-42A2-B7F5-39E3609A3CFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{AA4CD24C-C317-4EAC-95F7-A72A837F3BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA4CD24C-C317-4EAC-95F7-A72A837F3BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA4CD24C-C317-4EAC-95F7-A72A837F3BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20199ECB-A0C8-4453-A478-FBB90AC746B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20199ECB-A0C8-4453-A478-FBB90AC746B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20199ECB-A0C8-4453-A478-FBB90AC746B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20199ECB-A0C8-4453-A478-FBB90AC746B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E933B6-2CB9-42A2-B7F5-39E3609A3CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E933B6-2CB9-42A2-B7F5-39E3609A3CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E933B6-2CB9-42A2-B7F5-39E3609A3CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E933B6-2CB9-42A2-B7F5-39E3609A3CFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

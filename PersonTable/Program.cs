@@ -5,7 +5,7 @@ Console.WriteLine("Testando");
 
 var novaPessoa = new Person
 {
-    
+    PersonId = 3002,
     Name = "Pedro",
     Age = 20,
     EstadoCivil = "Solteiro",
@@ -19,7 +19,6 @@ try
     using(var context = new PersonContext())
     {
         var dal = new Dal<Person>(context);
-        dal.Adicionar(novaPessoa);
         var lista = dal.Listar();
         foreach (var item in lista)
         {
